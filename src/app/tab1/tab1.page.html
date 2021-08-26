@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,134 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Filmes</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-searchbar show-cancel-button="always"></ion-searchbar>
+
+  <ion-item lines="none" routerLink="/pedrafilosofal">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/pedra filosofal.jpg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e a pedra filosofal</p>
+      <p>23/11/2001</p>
+      <ion-badge color="light">Aventura</ion-badge>
+      <ion-badge color="light">Fantasia</ion-badge>
+    </ion-label>
+    <ion-chip color="success">
+      <ion-label>79%</ion-label>
+    </ion-chip>
+  </ion-item>
+  
+
+  <ion-item lines="none" routerLink="/camarasecreta">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/câmara secreta.jpg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e a Câmara Secreta</p>
+      <p>22/11/2002</p>
+      <ion-badge color="light">Aventura</ion-badge>
+      <ion-badge color="light">Fantasia</ion-badge>
+    </ion-label>
+    <ion-chip color="success">
+      <ion-label>77%</ion-label>
+    </ion-chip>
+  </ion-item>
+
+  <ion-item lines="none" routerLink="/prisioneirodeazcaban">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/o prisioneiro de azkaban.jpg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+    <p>Harry Potter e o Prisioneiro de Azcaban</p>
+      <p>04/06/2004</p>
+      <ion-badge color="light">Aventura</ion-badge>
+      <ion-badge color="light">Fantasia</ion-badge>
+    </ion-label>
+    <ion-chip color="success">
+      <ion-label>80%</ion-label>
+    </ion-chip>
+  </ion-item>
+
+  <ion-item lines="none" routerLink="/calicedefogo">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/calice de fogo.jpeg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e o Cálice de Fogo</p>
+        <p>25/11/2005</p>
+        <ion-badge color="light">Aventura</ion-badge>
+        <ion-badge color="light">Fantasia</ion-badge>
+        <ion-badge color="light">Familia</ion-badge>
+      </ion-label>
+      <ion-chip color="success">
+        <ion-label>78%</ion-label>
+      </ion-chip>
+  </ion-item>
+
+  <ion-item lines="none" routerLink="/ordemdafenix">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/a ordem da fenix.jpeg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e a Ordem da Fenix</p>
+        <p>11/07/2007</p>
+        <ion-badge color="light">Aventura</ion-badge>
+        <ion-badge color="light">Fantasia</ion-badge>
+        <ion-badge color="light">Mistério</ion-badge>
+      </ion-label>
+      <ion-chip color="success">
+        <ion-label>77%</ion-label>
+      </ion-chip>
+  </ion-item>
+
+  <ion-item lines="none" routerLink="/enigmadoprincipe">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/o enigma do principe.jpg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e o Enigma do Principe</p>
+        <p>17/07/2009</p>
+        <ion-badge color="light">Aventura</ion-badge>
+        <ion-badge color="light">Fantasia</ion-badge>
+      </ion-label>
+      <ion-chip color="success">
+        <ion-label>77%</ion-label>
+      </ion-chip>
+  </ion-item>
+
+  <ion-item lines="none" routerLink="/reliquiasdamorte1">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/reliquiasdamorte1.jpg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e as Relíquias da Morte parte 1</p>
+        <p>18/11/2010</p>
+        <ion-badge color="light">Aventura</ion-badge>
+        <ion-badge color="light">Fantasia</ion-badge>
+      </ion-label>
+      <ion-chip color="success">
+        <ion-label>78%</ion-label>
+      </ion-chip>
+  </ion-item>
+
+  <ion-item lines="none" routerLink="/reliquiasdamorte2">
+    <ion-thumbnail slot="start">
+      <img src="../../assets/reliquiasdamorte2.jpg">
+    </ion-thumbnail>
+    <ion-label class="ion-text-wrap">
+      <p>Harry Potter e as Relíquias da morte parte 2</p>
+        <p>15/07/2011</p>
+        <ion-badge color="light">Aventura</ion-badge>
+        <ion-badge color="light">Fantasia</ion-badge>
+      </ion-label>
+      <ion-chip color="success">
+        <ion-label>81%</ion-label>
+      </ion-chip>
+  </ion-item>
+
+
 </ion-content>
